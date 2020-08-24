@@ -1,3 +1,21 @@
-var Grub = function() {
+var Grub = function () {
+  this.age = 0;
+  this.color = 'pink';
+  this.food = 'jelly';
+  // this.eat = function () { };
 };
 
+// Grub.prototype.age = 0;
+// Grub.prototype.color = 'pink';
+// Grub.prototype.food = 'jelly';
+Grub.prototype.eat = function () { };
+
+/*
+class structure:
+
+Grub
+  Bee
+    HoneyMakerBee
+    ForagerBee
+      RetiredForagerBee
+*/
